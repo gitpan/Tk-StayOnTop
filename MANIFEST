@@ -5,3 +5,4 @@ README
 TODO
 StayOnTop.pm
 t/01Basic.t
+META.yml                                 Module meta-data (added by MakeMaker)

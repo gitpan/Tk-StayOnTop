@@ -1,4 +1,4 @@
 Things to do, or just a wish list?
 
 General:
- * Better X-Windows support
+ * Retire this when Tk fully implements the "-toplevel => 1" attribute
