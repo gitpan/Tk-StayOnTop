@@ -1,6 +1,6 @@
 package Tk::StayOnTop;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 #==============================================================================#
 
@@ -86,7 +86,8 @@ sub dontStayOnTop {
 
 	if ($^O =~ /Win32/) {
 		$obj->update;
-		$win32_winpos->Call(hex($obj->frame()),0,0,0,0,0,0);
+		# HWND_NOTOPMOST (-2) and SWP_NOSIZE+SWP_NOMOVE (3)
+		$win32_winpos->Call(hex($obj->frame()),-2,0,0,0,0,3);
 	} else {
 		$obj->afterCancel($repeat_id);
 		$repeat_id = undef;
