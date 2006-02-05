@@ -6,7 +6,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     'NAME'          => 'Tk::StayOnTop',
-    'VERSION_FROM'  => 'StayOnTop.pm',
+    'VERSION_FROM'  => 'lib/Tk/StayOnTop.pm',
     'PREREQ_PM'     => {'Tk' => "800.022", "Switch" => 2.07 },
     'ABSTRACT'      => 'Keep your Tk window in the foreground',
     'AUTHOR'        => 'Gavin Brock <gbrock@cpan.org>',

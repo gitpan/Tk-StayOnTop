@@ -3,6 +3,8 @@ Makefile.PL
 MANIFEST
 README
 TODO
-StayOnTop.pm
+lib/Tk/StayOnTop.pm
 t/01Basic.t
+t/90pod.t
+t/91podcoverage.t
 META.yml                                 Module meta-data (added by MakeMaker)

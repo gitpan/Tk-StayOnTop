@@ -1,5 +1,7 @@
 Revision history for Perl extension Tk::StayOnTop.
 
+0.12 2006/02/02 Minor test/doc improvements as suggested by CPANTS
+
 0.11 2004/04/27 Major reworking according to suggestions from Slaven Rezic.
                 Will use the "-toplevel => 1" attribute on Win32 Tk >= 804.027
 		Will use NET_WM_STATE_STAYS_ON_TOP property on KDE/Gnome, etc
